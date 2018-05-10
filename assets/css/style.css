@@ -178,7 +178,7 @@ a {
 /* NOSOTROS */
 /* Tabla */
 .us {
-
+	padding: 20px;
 }
 
 .us h2 {
@@ -207,6 +207,10 @@ a {
 
 .us img {
 	padding: 10px 0;
+}
+
+.us ul {
+	padding: 5px;
 }
 
 .us li {
