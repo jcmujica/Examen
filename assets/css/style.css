@@ -8,6 +8,12 @@ a {
 	color: black;
 }
 
+h3 {
+	color: rgb(0, 102, 153);
+	font-size: 1em;
+	font-weight: bold;
+}
+
 /* Navbar */
 
 .leftnav {
@@ -187,16 +193,6 @@ a {
 	font-weight: bold;
 }
 
-.us h3 {
-	color: rgb(0, 102, 153);
-	font-size: 1em;
-	font-weight: bold;
-}
-
-.us i {
-	color: orange;
-}
-
 .us__table tr, .us__table td {
 	max-width: 100%;
 	padding: 10px;
@@ -218,6 +214,12 @@ a {
 	border: 1px solid white;
 	background-color: lightblue;
 	max-width: 50%;
+}
+
+/*BLOG */
+
+.fa-caret-right {
+	color: orange;
 }
 
 @media only screen and (max-width: 990px) {
