@@ -146,40 +146,19 @@ h3 {
 }
 
 /* Footer */
-.footer__box {
-	margin: 20px 0;
-}
-
-.footer__title {
-	border: solid 3px;
-	margin: 10px 0;
-	padding: 10px 20px;
-	border-radius: 25px;
-	color: black;
-	font-size: 1em;
-	display: inline-block;
-	width: 50%;
+.footer__info {
+	font-size: 3em;
+	margin: 20px;
 	text-align: center;
-}
-
-.footer__items {
-	list-style: square;
-	padding-left: 0;
-	display: inline-block;
 	margin: 0;
 }
 
-.footer__tablerow {
-	width: 35%;	
+.footer__map {
+	border: 0;
+	max-width: 100%;
 }
 
-.footer__title--orange {
-	border-color: orange;
-}
 
-.footer__title--yellow {
-	border-color: yellow;
-}
 
 /* NOSOTROS */
 /* Tabla */
@@ -222,6 +201,8 @@ h3 {
 	color: orange;
 }
 
+
+
 @media only screen and (max-width: 990px) {
 	.leftnav {
 		position: inherit;
@@ -236,8 +217,17 @@ h3 {
 		text-indent: -10000px;
 	}
 
+	.banner {
+		text-align: center;
+		margin: 0 auto;
+	}
+
 	.news {
 		text-align: center;
+	}
+
+	.news__items {
+		list-style: none;
 	}
 
 	.footer {
