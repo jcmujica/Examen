@@ -1,5 +1,7 @@
 body {
 	margin: 0;
+	height: 100%;	
+	background-image: url("assets/img/banner.png");
 }
 
 a {
@@ -65,50 +67,6 @@ a {
 .leftnav__button--red {
 	background-color: red;
 }
-
-@media only screen and (max-width: 990px) {
-	.leftnav {
-		position: inherit;
-	}
-
-	.leftnav__items {
-		display: inline;
-		max-width: 50%;
-	}
-
-	.leftnav__logo {
-		text-indent: -10000px;
-	}
-
-	.news {
-		text-align: center;
-	}
-
-	.footer {
-		text-align: center;
-	}
-
-	.footer__table {
-		text-align: left;
-		margin: 0 auto;
-	}
-
-	.footer__title {
-		display: inline;
-		max-width: 50%;
-		text-align: center;
-	}
-
-}
-
-@media only screen and (max-width: 900px) {
-	body {
-		background-color: green;
-	}
-
-}
-
-
 
 
 /* header */
@@ -194,6 +152,8 @@ a {
 	color: black;
 	font-size: 1em;
 	display: inline-block;
+	width: 50%;
+	text-align: center;
 }
 
 .footer__items {
@@ -213,4 +173,80 @@ a {
 
 .footer__title--yellow {
 	border-color: yellow;
+}
+
+/* NOSOTROS */
+/* Tabla */
+.us {
+
+}
+
+.us h2 {
+	color: orange;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.us h3 {
+	color: rgb(0, 102, 153);
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.us i {
+	color: orange;
+}
+
+.us__table tr, .us__table td {
+	max-width: 100%;
+	padding: 10px;
+	border: 1px solid white;
+	background-color: lightblue;
+	font-size: .95em;
+}
+
+.us img {
+	padding: 10px 0;
+}
+
+.us li {
+	list-style: square;
+	border: 1px solid white;
+	background-color: lightblue;
+	max-width: 50%;
+}
+
+@media only screen and (max-width: 990px) {
+	.leftnav {
+		position: inherit;
+	}
+
+	.leftnav__items {
+		display: inline;
+		max-width: 50%;
+	}
+
+	.leftnav__logo {
+		text-indent: -10000px;
+	}
+
+	.news {
+		text-align: center;
+	}
+
+	.footer {
+		text-align: center;
+	}
+
+	.footer__table {
+		text-align: left;
+		margin: 0 auto;
+	}
+
+	.footer__title {
+		display: inline;
+		max-width: 50%;
+		text-align: center;
+	}
+
 }
